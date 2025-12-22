@@ -18,6 +18,9 @@ Modern ve kullanıcı dostu bir YouTube video, müzik ve oynatma listesi indirme
 ### Genel Özellikler
 - FFmpeg otomatik algılama ve manuel seçim desteği
 - Modern PyQt6 tabanlı kullanıcı arayüzü
+- **Tema Desteği**: Göz yormayan Karanlık ve Aydınlık mod seçenekleri
+- **Akıllı Önbellek Yönetimi**: Sorunsuz indirmeler için otomatik önbellek temizleme ve manuel kontrol
+- **Güvenli Dosya Yönetimi**: Aynı isimli dosyaların üzerine yazılmasını önleyen akıllı kontrol sistemi
 - İlerleme göstergesi ve detaylı durum bilgisi
 - Kapsamlı hata yönetimi
 - Çoklu dil desteği (Türkçe, İngilizce, İspanyolca, Rusça)
@@ -76,4 +79,4 @@ Modern ve kullanıcı dostu bir YouTube video, müzik ve oynatma listesi indirme
 
 ## Lisans
 
-MIT
+Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
