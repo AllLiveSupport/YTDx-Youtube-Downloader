@@ -1,82 +1,144 @@
-# YTDx - YouTube Video ve Müzik İndirici
+<div align="center">
+  
+# 📺 YTDx - Professional YouTube Downloader
 
-Modern ve kullanıcı dostu bir YouTube video, müzik ve oynatma listesi indirme uygulaması.
+### 🚀 High Quality Video & Music Downloader with FFmpeg Integration
 
-## Özellikler
+<br/>
 
-### Video Özellikleri
-- Tek video ve oynatma listesi indirme desteği
-- Yüksek kaliteli video indirme (VP9/AV1 kodekleri öncelikli)
-- Farklı video kaliteleri seçeneği (144p'den 4K'ya kadar)
+[![GitHub stars](https://img.shields.io/github/stars/AllLiveSupport/YTDx-Youtube-Downloader?style=for-the-badge&logo=github&color=yellow)](https://github.com/AllLiveSupport/YTDx-Youtube-Downloader/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/alllivesupport)
 
-### Müzik Özellikleri
-- YouTube videolarından yüksek kaliteli ses dosyası indirme (MP3/M4A)
-- Oynatma listelerinden toplu müzik indirme
-- Her müzik için otomatik kapak resmi ekleme
-- Farklı ses kalitesi seçenekleri (düşük/orta/yüksek)
+<br/>
 
-### Genel Özellikler
-- FFmpeg otomatik algılama ve manuel seçim desteği
-- Modern PyQt6 tabanlı kullanıcı arayüzü
-- **Tema Desteği**: Göz yormayan Karanlık ve Aydınlık mod seçenekleri
-- **Akıllı Önbellek Yönetimi**: Sorunsuz indirmeler için otomatik önbellek temizleme ve manuel kontrol
-- **Güvenli Dosya Yönetimi**: Aynı isimli dosyaların üzerine yazılmasını önleyen akıllı kontrol sistemi
-- İlerleme göstergesi ve detaylı durum bilgisi
-- Kapsamlı hata yönetimi
-- Çoklu dil desteği (Türkçe, İngilizce, İspanyolca, Rusça)
+<img src="https://img.shields.io/badge/Windows-Supported-success?style=flat-square&logo=windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyQt6-GUI-success?style=flat-square&logo=qt&logoColor=white"/>
+<img src="https://img.shields.io/badge/FFmpeg-Powered-success?style=flat-square&logo=ffmpeg&logoColor=white"/>
 
-## Kurulum
+---
 
-1. Gerekli paketleri yükleyin:
-   ```
-   pip install -r requirements.txt
-   ```
+**✨ 4K/8K Support • 🎵 MP3/M4A with Metadata • 📋 Playlist Support • 🌍 Multi-Language**
 
-2. FFmpeg'i yükleyin:
-   - Windows: [FFmpeg İndirme Sayfası](https://ffmpeg.org/download.html)
-   - FFmpeg'i PATH'e ekleyin veya uygulama içinden manuel olarak seçin
+</div>
 
-3. Uygulamayı çalıştırın:
-   ```
-   python main.py
-   ```
+<br/>
 
-## Kullanım
+---
 
-### Video İndirme
-1. Video sekmesine geçin
-2. Video veya oynatma listesi URL'sini girin
-3. İndirme klasörünü seçin
-4. Video kalitesini seçin
-5. "İndirmeyi Başlat" butonuna tıklayın
+## 📸 Screenshots
 
-### Müzik İndirme
-1. Müzik sekmesine geçin
-2. Video veya oynatma listesi URL'sini girin
-3. İndirme klasörünü seçin
-4. Ses kalitesini ve formatını (MP3/M4A) seçin
-5. Tek video veya playlist seçeneğini işaretleyin
-6. "İndirmeyi Başlat" butonuna tıklayın
+<div align="center">
+  <img src="docs/images/GUI1.PNG" width="30%" alt="Dark Mode">
+  <img src="docs/images/GUI2.PNG" width="30%" alt="Settings">
+  <img src="docs/images/GUI3.PNG" width="30%" alt="Download">
+</div>
 
-## Modüler Yapı
+<br/>
 
-- `main.py`: Ana uygulama başlatıcısı
-- `src/gui.py`: PyQt6 tabanlı kullanıcı arayüzü
-- `src/downloader.py`: YouTube video ve müzik indirme işlemleri
-- `src/language.py`: Çoklu dil desteği
-- `src/custom_widgets.py`: Özelleştirilmiş arayüz bileşenleri
-- `languages/`: Dil dosyaları (JSON formatında)
+---
 
-## Gereksinimler
+## 🌟 Key Features
 
-- Python 3.7+
-- PyQt6
-- pytubefix
-- Pillow (PIL) - Kapak resimleri için
-- Mutagen - MP3/M4A etiketleri için
-- Requests - İnternet istekleri için
-- FFmpeg - Ses ve video dönüştürme için
+- **📺 High Quality Video**: Download videos in 1080p, 2K, 4K, and even 8K (uses FFmpeg to merge video+audio).
+- **🎵 Music Downloader**: Convert videos to MP3 or M4A with high bitrate.
+- **🖼️ Smart Metadata**: Automatically adds cover art (thumbnail), artist, and title tags to music files.
+- **📋 Playlist Support**: Download single videos or entire playlists with one click.
+- **🌍 Multi-Language Intelligence**: Fully localized for 4 languages:
+  - 🇹🇷 Turkish (Türkçe)
+  - 🇺🇸 English
+  - 🇪🇸 Spanish (Español)
+  - 🇷🇺 Russian (Pусский)
+- **🧹 Storage Management**: Built-in `pytubefix` cache clearing tool to fix throttling issues.
+- **🌗 Theme Support**: Toggle between Modern Dark and Light themes.
 
-## Lisans
+<br/>
 
-Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Download & Install Requirements
+
+First, clone the project and install the necessary Python libraries:
+
+```bash
+git clone https://github.com/AllLiveSupport/YTDx-Youtube-Downloader.git
+cd YTDx-Youtube-Downloader
+pip install -r requirements.txt
+```
+
+### 2️⃣ FFmpeg Installation (Critical for High Quality)
+
+For 1080p+ video and proper audio conversion, **FFmpeg** is required.
+
+**Step-by-Step Guide:**
+
+1.  **Download FFmpeg:**
+    - Go to [ffmpeg.org/download](https://ffmpeg.org/download.html) and download a build for Windows (e.g., from gyan.dev).
+2.  **Extract:**
+    - Extract the downloaded ZIP file.
+    - Rename the folder to `ffmpeg` and move it to `C:\`.
+    - You should have `C:\ffmpeg\bin\ffmpeg.exe`.
+3.  **Add to Path (Automatic Command):**
+    - Open **CMD** (Command Prompt) as **Administrator**.
+    - Run the following command to permanently add FFmpeg to your system PATH:
+
+    ```cmd
+    setx /M PATH "%PATH%;C:\ffmpeg\bin"
+    ```
+
+    > **Note:** Access is denied errors? Make sure to run CMD as **Administrator**.
+
+<br/>
+
+---
+
+## 🎮 Usage
+
+### Video Mode
+1.  Paste a YouTube Video or Playlist URL.
+2.  Select your desired resolution (e.g., 1080p, 4K).
+3.  Choose destination folder.
+4.  Click **Download**.
+
+### Audio Mode
+1.  Switch to the **Music** tab.
+2.  Paste URL.
+3.  Select Format (MP3 / M4A) and Quality.
+4.  If downloading a playlist, check "Playlist Download".
+5.  Click **Download**. *The app will automatically tag files with covers!*
+
+<br/>
+
+---
+
+## 📂 Project Structure
+
+```bash
+📦 YTDx
+ ┣ 📂 docs/images         # Screenshots
+ ┣ 📂 languages           # Translation Files (JSON)
+ ┣ 📂 src                 # Source Code
+ ┃ ┣ 📜 downloader.py     # Core Downloading Logic
+ ┃ ┣ 📜 gui.py            # PyQt6 Interface
+ ┃ ┗ 📜 language.py       # Localization Manager
+ ┣ 📜 main.py             # Entry Point
+ ┣ 📜 requirements.txt    # Python Dependencies
+ ┗ 📜 README.md           # This File
+```
+
+<br/>
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you like it!
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/AllLiveSupport-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AllLiveSupport)
+
+</div>

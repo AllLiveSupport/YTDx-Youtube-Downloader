@@ -73,7 +73,13 @@ def main():
         app = QApplication(sys.argv)
         app.setStyle("Fusion")  # Modern görünüm için Fusion stilini kullan
         apply_theme(app, lang_manager.current_theme)
-        app.setWindowIcon(QIcon('icon.ico'))  # Uygulama ikonunu ayarla
+        
+        # İkon yolunu ayarla
+        icon_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons', 'icon.ico')
+        if os.path.exists(icon_path):
+            app.setWindowIcon(QIcon(icon_path))
+        else:
+            logger.warning(f"İkon dosyası bulunamadı: {icon_path}")
         
         # Ana pencereyi oluştur
         from src.gui import MainWindow

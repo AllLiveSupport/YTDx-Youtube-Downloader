@@ -1,6 +1,5 @@
-customtkinter>=5.2.2
-pytubefix>=10.3.6
-PyQt6>=6.10.1
-Pillow>=12.0.0
-mutagen>=1.47.0
-requests>=2.32.5
+pytubefix
+PyQt6
+Pillow
+mutagen
+requests
