@@ -19,6 +19,17 @@
 
 ---
 
+> [!CAUTION]
+> ### ⚖️ Legal Disclaimer & Notice
+> This tool is provided for **personal and educational purposes only**. By using this software, you agree to the following:
+>
+> *   **📚 Respect Copyright:** Only use this for your personal backup of content you have legally accessed.
+> *   **⚖️ Terms of Service:** You are solely responsible for complying with YouTube's Terms of Service.
+> *   **👤 Ownership:** Do not redistribute or monetize downloaded files without proper authorization.
+> *   **🛡️ Liability:** The developers assume no liability for any misuse of this tool or any copyright infringement committed by the user.
+
+---
+
 **✨ 4K/8K Support • 🎵 MP3/M4A with Metadata • 📋 Playlist Support • 🌍 Multi-Language**
 
 </div>
